@@ -6,19 +6,16 @@ package com.javarush.test.level03.lesson06.task04;
 
 It's Windows path: "C:\Program Files\Java\jdk1.7.0\bin"
 It's Java string: \"C:\\Program Files\\Java\\jdk1.7.0\\bin\"
-
-
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
-        String a = "It's Windows path: "+"\"C:\\Program Files\\Java\\jdk1.7.0\\bin"+"\"";
-        String b= "It's Java string: "+"\\"+"\""  +"C:\\"+"\\"+"Program Files\\"+"\\"+"Java\\"+"\\"+"jdk1.7.0\\"+"\\"+"bin"+"\\"+"\"";
+public class Solution {
+
+    public static String a = "It's Windows path: " + "\"C:\\Program Files\\Java\\jdk1.7.0\\bin" + "\"";
+    public static String b = "It's Java string: " + "\\" + "\"" + "C:\\" + "\\" + "Program Files\\" + "\\" + "Java\\" + "\\" + "jdk1.7.0\\" + "\\" + "bin" + "\\" + "\"";
+
+    public static void main(String[] args) {
+
         System.out.println(a);
         System.out.print(b);
-
-
     }
 }
